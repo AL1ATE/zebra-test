@@ -7,7 +7,7 @@
 **Чтобы заполнить БД необходимо поместить файл test_task_data.csv в директорию:**
 **storage/app/**
 
-**После чего выполнить консольную команду кнутри контейнера:**
+**После чего выполнить консольную команду:**
 
 ```
  docker-compose exec app php artisan import:tenders storage/app/test_task_data.csv
