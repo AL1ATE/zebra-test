@@ -9,7 +9,7 @@
 
 **После чего выполнить консольную команду кнутри контейнера:**
 
-```json
+```
  docker-compose exec app php artisan import:tenders storage/app/test_task_data.csv
 ```
 
